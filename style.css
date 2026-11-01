@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b2500;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #4a1600;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #8b2500;
+    border-bottom: 2px solid #8b2500;
+    padding-bottom: 8px;
+}
+
+img {
+    width: 100%;
+    height: px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8b2500;
+    color: white;
+}
+
+article, blockquote {
+    background-color: #fff0e0;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+}
+
+li {
+    margin: 8px;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+}
+
+input[type="submit"] {
+    background-color: #8b2500;
+    color: white;
+    width: auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #4a1600;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
