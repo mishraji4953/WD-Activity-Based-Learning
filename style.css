@@ -1,21 +1,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff8f0;
-    color: #333333;
     margin: 0;
-    padding: 0;
+    background-color: #f2f8fc;
+    color: #333;
 }
 
 header {
-    background-color: #8b2500;
+    background-color: #087e8b;
     color: white;
     text-align: center;
     padding: 25px;
 }
 
 nav {
-    background-color: #4a1600;
+    background-color: #064f59;
     text-align: center;
     padding: 15px;
 }
@@ -23,34 +22,30 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
 }
 
 nav a:hover {
     color: yellow;
 }
 
-main {
-    margin: 20px;
-}
-
 section {
+    padding: 25px;
+    margin: 15px;
     background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 h2 {
-    color: #8b2500;
-    border-bottom: 2px solid #8b2500;
-    padding-bottom: 8px;
+    color: #087e8b;
 }
 
-img {
-    width: 100%;
-    height: px;
+article {
+    background-color: #e4f4f5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 table {
@@ -59,54 +54,43 @@ table {
 }
 
 th, td {
-    border: 1px solid #999999;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
+    border: 1px solid #777;
 }
 
 th {
-    background-color: #8b2500;
+    background-color: #087e8b;
     color: white;
 }
 
-article, blockquote {
-    background-color: #fff0e0;
-    padding: 15px;
-    margin: 10px 0;
-    border: 1px solid #cccccc;
-}
-
-li {
-    margin: 8px;
-}
-
 form {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
-input {
+input, select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #999999;
+    border: 1px solid #aaa;
+    border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: #8b2500;
+    background-color: #087e8b;
     color: white;
-    width: auto;
     margin-top: 15px;
     cursor: pointer;
 }
 
 footer {
-    background-color: #4a1600;
+    background-color: #064f59;
     color: white;
     text-align: center;
     padding: 15px;

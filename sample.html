@@ -4,149 +4,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Paradise Restaurant</title>
+    <title>Explore World - Travel Agency</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <header>
-        <h1>Food Paradise</h1>
-        <p>Delicious Food, Happy Moments</p>
+        <h1>Explore World</h1>
+        <p>Your Journey, Our Responsibility</p>
     </header>
 
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#menu">Menu</a>
-        <a href="#offers">Offers</a>
-        <a href="#chefs">Chefs</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#booking">Booking</a>
         <a href="#contact">Contact</a>
     </nav>
 
-    <main>
+    <section id="home">
+        <h2>Discover Beautiful Places</h2>
+        <p>Travel the world and create unforgettable memories with us.</p>
+        <a href="#packages">Explore Packages</a>
+    </section>
 
-        <section id="home">
-            <h2>Welcome to Food Paradise</h2>
-            <img src="Warm Café Restaurant Panorama.png"
-                 alt="Restaurant Food">
-            <p>Enjoy delicious meals prepared with fresh ingredients.
-               We provide quality food and excellent service.</p>
-        </section>
+    <section id="about">
+        <h2>About Our Agency</h2>
+        <p>Explore World is a travel agency that helps people plan comfortable and affordable trips. We provide tour packages, hotel bookings and travel guidance.</p>
+    </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Food Paradise is a family restaurant offering tasty
-               food in a comfortable environment. Our goal is to
-               provide delicious meals at affordable prices.</p>
-        </section>
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
 
-        <section id="menu">
-            <h2>Our Food Menu</h2>
+        <article>
+            <h3>Goa</h3>
+            <p>Enjoy beautiful beaches, water sports and nightlife.</p>
+        </article>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Food Item</th>
-                        <th>Category</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Veg Biryani</td>
-                        <td>Main Course</td>
-                        <td>₹150</td>
-                    </tr>
-                    <tr>
-                        <td>Paneer Biryani</td>
-                        <td>Main Course</td>
-                        <td>₹220</td>
-                    </tr>
-                    <tr>
-                        <td>Paneer Pizza</td>
-                        <td>Fast Food</td>
-                        <td>₹180</td>
-                    </tr>
-                    <tr>
-                        <td>Chocolate Cake</td>
-                        <td>Dessert</td>
-                        <td>₹100</td>
-                    </tr>
-                    <tr>
-                        <td>Cold Coffee</td>
-                        <td>Beverages</td>
-                        <td>₹80</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <article>
+            <h3>Manali</h3>
+            <p>Explore mountains, snow and beautiful valleys.</p>
+        </article>
 
-        <section id="offers">
-            <h2>Special Offers</h2>
-            <ul>
-                <li>10% discount on family meals.</li>
-                <li>Free dessert on orders above ₹500.</li>
-                <li>Special weekend food combos.</li>
-            </ul>
-        </section>
+        <article>
+            <h3>Jaipur</h3>
+            <p>Discover royal palaces, forts and Indian culture.</p>
+        </article>
 
-        <section id="chefs">
-            <h2>Our Chefs</h2>
-            <article>
-                <h3>Chef Rahul</h3>
-                <p>Specialist in Indian cuisine.</p>
-            </article>
+        <article>
+            <h3>Kerala</h3>
+            <p>Experience backwaters, greenery and peaceful nature.</p>
+        </article>
+    </section>
 
-            <article>
-                <h3>Chef Priya</h3>
-                <p>Specialist in desserts and bakery items.</p>
-            </article>
-        </section>
+    <section id="packages">
+        <h2>Travel Packages</h2>
 
-        <section id="testimonials">
-            <h2>Customer Reviews</h2>
-            <blockquote>
-                "Excellent food and friendly service."
-                <p>- Customer 1</p>
-            </blockquote>
+        <table border="1">
+            <tr>
+                <th>Destination</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Goa</td>
+                <td>3 Days</td>
+                <td>₹8,000</td>
+            </tr>
+            <tr>
+                <td>Manali</td>
+                <td>5 Days</td>
+                <td>₹12,000</td>
+            </tr>
+            <tr>
+                <td>Jaipur</td>
+                <td>2 Days</td>
+                <td>₹6,000</td>
+            </tr>
+            <tr>
+                <td>Kerala</td>
+                <td>4 Days</td>
+                <td>₹10,000</td>
+            </tr>
+        </table>
+    </section>
 
-            <blockquote>
-                "A wonderful place for family dining."
-                <p>- Customer 2</p>
-            </blockquote>
-        </section>
+    <section id="booking">
+        <h2>Book Your Trip</h2>
 
-        <section id="reservation">
-            <h2>Table Reservation</h2>
-            <form>
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name">
+        <form>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your name" required>
 
-                <label for="date">Reservation Date:</label>
-                <input type="date" id="date" name="date">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
 
-                <label for="guests">Number of Guests:</label>
-                <input type="number" id="guests" name="guests">
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter phone number">
 
-                <label for="time">Reservation Time:</label>
-                <input type="time" id="time" name="time">
+            <label>Select Destination:</label>
+            <select>
+                <option>Goa</option>
+                <option>Manali</option>
+                <option>Jaipur</option>
+                <option>Kerala</option>
+            </select>
 
-                <input type="submit" value="Book Table">
-            </form>
-        </section>
+            <label>Travel Date:</label>
+            <input type="date">
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Address: Vijayawada, Andhra Pradesh</p>
-            <p>Email: foodparadise@gmail.com</p>
-            <p>Phone: 9876543210</p>
-        </section>
+            <label>Number of People:</label>
+            <input type="number" min="1">
 
-    </main>
+            <input type="submit" value="Book Now">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: exploreworld@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address: Vijayawada, Andhra Pradesh</p>
+    </section>
 
     <footer>
-        <p>&copy; 2026 Food Paradise. All Rights Reserved.</p>
+        <p>&copy; 2026 Explore World Travel Agency. All Rights Reserved.</p>
     </footer>
 
 </body>
